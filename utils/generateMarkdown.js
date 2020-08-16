@@ -5,40 +5,38 @@ function generateMarkdown(data) {
   const gitHub = `https://img.shields.io/badge/Github-${data.username}-4cbbb9`;
 
   return `
-# ${data.title}
+  # ${data.title}
 
-## Description
-${data.description}
+  ## Description
+  ${data.description}
 
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Tests](#tests)
-- [Contributors](#contributors)
-- [Details](#details)
-## Installation
-Packages required to run this program are: ${data.installation}
+  ## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Tests](#tests)
+  - [Contributors](#contributors)
+  - [Details](#details)
+  ## Installation
+  Packages required to run this program are: ${data.installation}
 
-## Usage
-Examples of how to use this program: ${data.usage}
+  ## Usage
+  Examples of how to use this program: ${data.usage}
 
-## License
-${data.license}
+  ## License
+  ${data.license}
 
-## Tests
-To test, run the following command: ${data.tests}
+  ## Tests
+  To test, run the following command: ${data.tests}
 
-## Contributors
-${data.contributer}
+  ## Contributors
+  ${data.contributer}
 
-## Contact
-\n![Badge](${gitHub}) 
-\n![Profile Image](${avatar})
-\nView the project in GitHub at: ${data.url}
-\nIf you have any questions, contact the author directly at ${data.email}.`
-
-`;
+  ## Contact
+  \n![Badge](${gitHub}) 
+  \n![Profile Image](${avatar})
+  \nView the project in GitHub at: ${data.url}
+  \nIf you have any questions, contact the author directly at ${data.email}.`
 }
 
 export default generateMarkdown;
