@@ -17,8 +17,12 @@ function generateMarkdown(data) {
   - [Tests](#tests)
   - [Contributors](#contributors)
   - [Details](#details)
+  
   ## Installation
-  Packages required to run this program are: ${data.installation}
+  Packages required to run this program: ${data.installation}
+
+  ## Technology
+  Technologies and Tools used in this program: \n![Badge](${data.technology})
 
   ## Usage
   Examples of how to use this program: ${data.usage}
