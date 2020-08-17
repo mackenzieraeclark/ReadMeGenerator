@@ -43,4 +43,4 @@ function generateMarkdown(data) {
   \nIf you have any questions, contact the author directly at ${data.email}.`
 }
 
-export default generateMarkdown;
+module.exports = generateMarkdown;
