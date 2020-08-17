@@ -59,7 +59,13 @@ const questions = [
 ];
 
 function writeToFile(fileName, data) {
-}
+    fs.writeFile(fileName, data, "utf8", function (err) {
+        if (err) {
+          throw err;
+        }
+        console.log("You have successfully written your README file");
+      });
+};
 
 function init() {
 
