@@ -63,12 +63,19 @@ function writeToFile(fileName, data) {
         if (err) {
           throw err;
         }
-        console.log("You have successfully written your README file");
+        console.log("README generated successfully.");
       });
 };
 
-function init() {
-
-}
+async function init() {
+    try {
+        const answers = await askQuestions();
+        generateMarkdown(answers);
+        writetoFile("README.md", generateMarkdown(answers));
+    
+        } catch (err) {
+          console.log(err);
+        }
+};
 
 init();
