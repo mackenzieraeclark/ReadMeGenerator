@@ -16,8 +16,7 @@
   Packages required to run this program: Please install the Inquirer package.
 
   ## Technology
-  Technologies and Tools used in this program: 
-![Badge](This application uses JavaScript, Node.js, and Inquirer.)
+  Technologies and Tools used in this program: This application uses JavaScript, Node.js, and Inquirer.
 
   ## Usage
   Examples of how to use this program: A common use for this application is for developers to make sure they are showcasing the right information about their project.
