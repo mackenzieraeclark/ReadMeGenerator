@@ -40,7 +40,10 @@ function generateMarkdown(data) {
   \n![Badge](${gitHub}) 
   \n![Profile Image](${avatar})
   \nView the project in GitHub at: ${data.url}
-  \nIf you have any questions, contact the author directly at ${data.email}.`
+  \nIf you have any questions, contact the author directly at ${data.email}.
+  
+  _This file was generated using a [README generator](https://github.com/mackenzieraeclark/ReadMeGenerator)`
+
 }
 
 module.exports = generateMarkdown;
